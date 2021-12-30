@@ -1,0 +1,8 @@
+: 1
+name: readerwriterqueue
+version: 1.0.6-a.0.z
+summary: readerwriterqueue C++ library
+license: BSD-2-Clause
+url: https://github.com/cameron314/readerwriterqueue
+depends: * build2 >= 0.14.0
+depends: * bpkg >= 0.14.0

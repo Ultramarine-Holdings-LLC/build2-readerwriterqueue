@@ -1,0 +1,9 @@
+lib{readerwriterqueue}: hxx{*}
+{
+  cxx.export.poptions += "-I$src_base"
+}
+
+../upstream/include/
+{
+  hxx{*}: install.subdirs = true
+}

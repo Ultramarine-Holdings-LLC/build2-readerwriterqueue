@@ -1,0 +1,6 @@
+$out_root/
+{
+  include readerwriterqueue/
+}
+
+export $out_root/readerwriterqueue/$import.target
