@@ -3,12 +3,7 @@ lib{readerwriterqueue}: hxx{*}
   cxx.export.poptions += "-I$src_base"
 }
 
-if ($cxx.target.class == 'linux')
+if ($cxx.target.class != 'windows')
 {
     lib{readerwriterqueue}: cxx.export.libs += "-lpthread"
-}
-
-../upstream/include/
-{
-  hxx{*}: install.subdirs = true
 }
