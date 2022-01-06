@@ -1,4 +1,4 @@
 import libs = readerwriterqueue%lib{readerwriterqueue}
 
-exe{driver}: common/{hxx cxx}{simplethread} unittests/hxx{minitest} unittests/cxx{unittests} $libs
+exe{driver}: hxx{minitest} cxx{unittests} {hxx cxx}{simplethread} $libs
 exe{driver}: test.options = --disable-prompt
