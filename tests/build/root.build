@@ -1,0 +1,8 @@
+using cxx
+
+hxx{*}: extension = h
+cxx{*}: extension = cpp
+
+exe{*}: test = true
+
+test.target = $cxx.target
