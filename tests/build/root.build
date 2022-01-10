@@ -1,6 +1,6 @@
-using cxx
-
 cxx.std = latest
+
+using cxx
 
 hxx{*}: extension = h
 cxx{*}: extension = cpp
