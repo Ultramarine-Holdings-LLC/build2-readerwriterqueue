@@ -1,10 +1,9 @@
 lib{readerwriterqueue}: hxx{*}
 {
-  cxx.export.poptions += "-I$src_base"
+    cxx.export.poptions += "-I$src_base"
 }
 
 if ($cxx.target.class != 'windows')
 {
-    cxx.libs += "-lpthread"
     lib{readerwriterqueue}: cxx.export.libs += "-lpthread"
 }
