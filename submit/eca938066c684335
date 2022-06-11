@@ -1,0 +1,5 @@
+: 1
+name: readerwriterqueue
+version: 1.0.6+4
+summary: A fast single-producer, single-consumer lock-free queue for C++
+license: BSD-2-Clause
